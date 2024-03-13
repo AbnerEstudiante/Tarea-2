@@ -1,0 +1,57 @@
+#contenedor 
+{
+    justify-content: center;
+    background-color: coral;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+#caja{
+    background-color: blue;
+    margin: 25px;
+    padding: 30px;
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+#caja1{
+    background-color: red;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    display: fixed;
+    flex-grow: 1;
+}
+
+
+#caja2{
+    background-color: green;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    display: flex;
+    flex-grow: 1;
+}
+#caja3{
+    background-color: yellow;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    display: fixed;
+    flex-grow: 1;
+}
